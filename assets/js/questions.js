@@ -105,7 +105,7 @@ function handleAnswerSelection() {
         console.log("Correct answer and your score:", score, "from", totalQuestions);
     } else {
         console.log("incorrect answer!!");
-        // durationRemaining -= 10;
+        durationRemaining -= 10;
     }
     currentQuestionIndex++;
     if (currentQuestionIndex < totalQuestions) {
